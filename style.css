@@ -1,0 +1,212 @@
+html{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+body{
+    background: #313556;
+}
+header{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #20223f;
+    text-align: center;
+}
+#h1{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #f3f4f5;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+.formcontainor{
+    width: 100%; 
+    background-color: #20223f;
+    color: #f3f4f5;
+    margin: 0 auto;
+}
+.name{
+    padding: .8rem;
+    font-size: .8rem;
+}
+.name label{
+    padding-left: 7rem;
+}
+.nameInput{
+    margin: 0 auto .8rem;
+    width: 40%;
+    padding: .8rem;
+    background-color: #313556;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    color: #f3f4f5;
+}
+.name label, input{
+    display: block;
+    margin-bottom: 0.3rem;
+}
+.name ::placeholder{
+    color: #f3f4f5;
+}
+.gender{
+    padding: 0 .8rem;
+    font-size: .8rem;
+}
+.gender label{
+    padding-left: 7rem;
+}
+.selectGender{
+    margin: 0 auto .8em;
+    border: none;
+    outline: none;
+    width: 33%;
+    padding: .8rem;
+    border-radius: 25px;
+    background-color: #313556;
+    color: #f3f4f5;
+}
+.restofForm{
+    padding: .8rem;
+    padding-top: 0;
+    font-size: .8rem;
+}
+.restofForm label{
+    padding-left: 7rem;
+}
+.formInputs{
+    margin: 0 auto 1.2rem;
+    width: 40%;
+    padding: .8rem;
+    background-color: #313556;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    color: #f3f4f5;
+}
+.restofForm label, input{
+    display: block;
+    margin-bottom: .5rem;
+}
+.restofForm ::placeholder{
+    color: #f3f4f5;
+}
+.checkbox{
+    padding: 0 6rem;
+    display: flex;
+
+}
+.checkbox a{
+    color: #3cc77a;
+    text-decoration: none;
+    
+}
+.button{
+    margin: 1rem auto 0;
+    width: 40%;
+    padding: .8rem;
+    background: #3cc77a;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+}
+.button .submit{
+    background-color: #3cc77a;
+    outline: none;
+    border: none;
+    color: #20223f;
+}
+footer{
+    width: 100%;
+    background: #20223f;
+    margin: 0 auto;
+    text-align: center;
+    color: #f3f4f5;
+    font-size: 1rem;
+}
+.redirect{
+    padding: 3.5rem 6rem;
+
+}
+.redirect p, a{
+    display: inline;
+}
+.redirect a{
+    color: #3cc77a;
+    text-decoration: none;
+}
+.forgot{
+    padding: 1rem;
+    padding-top: 18rem;
+}
+.forgot a{
+    color: #3cc77a;
+    text-decoration: none;
+}
+@media (min-width: 769px){
+    header{
+        width: 769px;
+        margin-top: 1rem;
+        background: #20223f;
+    }
+    #h1{
+        padding: 3rem;
+        font-size: 2em;
+    }
+    .formcontainor{
+        width: 769px;
+        text-align: center;
+    }
+    .name{
+        padding: .3rem;
+        text-align: center;
+    }
+    .name label{
+        padding-left: 1rem;
+    }
+    .nameInput{
+        width: 15%;
+        padding: 1rem;
+    }
+    .name label, input{
+        display: inline;
+    }
+    .gender{
+        padding: .3rem;
+    }
+    .gender label{
+        padding-left: 1rem;
+    }
+    .selectGender{
+        width: 33%;
+        text-align: center;
+        padding: 1rem;
+    }
+    .restofForm{
+        padding: .3rem;
+        text-align: center;
+    }
+    .restofForm label{
+        padding-left: 1rem;
+    }
+    .formInputs{
+        width: 35%;
+        padding: 1rem;
+    }
+    .restofForm label, input{
+        display: inline-block;
+    }    
+    .checkbox{
+        align-content: center;
+        justify-content: center;
+    }
+    .forgot{
+        padding: 2rem;
+    }
+    footer{
+        width: 769px;
+        margin-bottom: 1rem;
+        background: #20223f;
+    }
+}
